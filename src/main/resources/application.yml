@@ -1,0 +1,19 @@
+spring:
+  application:
+    name: admin-server
+  security:
+    user:
+      name: "admin"
+      password: "gk1987"
+      
+server:
+  port: 7777
+  
+#management:
+#  endpoint:
+#    health:
+#      show-details: always
+#  endpoints:
+#    web:
+#      exposure:
+#        include: "*"
